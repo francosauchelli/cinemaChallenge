@@ -1,0 +1,46 @@
+.items-container {
+    margin: 50px;
+    height: 700px;
+}
+
+.cards-container {
+    display: flex;
+    overflow-x: scroll;
+    width: 95%;
+    margin: 0px auto;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 5px -2px #faf2f248;
+
+}
+
+.cards-container-title {
+    margin: 20px;
+}
+
+
+.cards-container div {
+    height: auto;
+    margin: 10px;
+}
+
+/*Webkit*/
+::-webkit-scrollbar {
+width: 2px;
+height: 8px;
+}
+
+::-webkit-scrollbar:window-inactive {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb  {
+height: 10px;
+width: 1px;
+background-color: #3e065f52;
+border-radius: 6px;
+}
+
+::-webkit-scrollbar-corner {
+background: transparent ;
+}

@@ -1,0 +1,54 @@
+.poster-image-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.poster-image-container img {
+    height: 220px;
+    width: auto;
+}
+
+.top-detail-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.detail-text-title {
+    text-transform: uppercase;
+}
+
+.backdrop-image-container {
+    display: flex;
+    justify-content: start;
+    width: 900px;
+}
+.backdrop-image-container img {
+    height: auto;
+    object-fit: none;
+    margin: 20px;
+}
+
+.overview-container p {
+    width: 600px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-networks-container {
+    display: flex;
+    justify-content: end;
+}
+
+.social-networks-container button {
+    display: block;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    color: #b6b3b3;
+}
+
+.detail-info-container p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

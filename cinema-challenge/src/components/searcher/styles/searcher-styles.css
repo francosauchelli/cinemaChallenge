@@ -1,0 +1,11 @@
+.input-searcher div div input {
+    color: #8E05C2;
+}
+
+.input-searcher div label {
+    color: #3E065F;
+}
+
+.MuiOutlinedInput-root fieldset {
+    border: solid 1px #3E065F;
+}

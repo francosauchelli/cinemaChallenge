@@ -1,0 +1,27 @@
+.main-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: -1px -1px 10px #3E065F;
+}
+
+.logo-footer img {
+    width: 130px;
+}
+
+.main-footer div {
+    display: flex;
+    justify-content: center;
+    margin: 10px 20px;
+    align-items: start;
+}
+
+.main-footer li {
+    list-style: none;
+}

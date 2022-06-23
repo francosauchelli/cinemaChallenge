@@ -1,0 +1,27 @@
+.logo-container img {
+    width: 230px;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    align-items: center;
+    box-shadow: 5px 2px 20px #3E065F;
+}
+
+.logo-container,
+.buttons-navbar-container {
+    margin: 0px 50px;;
+}
+
+.buttons-navbar-container {
+    display: flex;
+    align-items: center;
+}
+

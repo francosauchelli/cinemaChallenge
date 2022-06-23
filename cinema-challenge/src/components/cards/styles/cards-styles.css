@@ -1,0 +1,47 @@
+.card-container {
+    flex-shrink: 0;
+    width:fit-content;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px outset #dedede13;
+    margin-left: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.card-container:hover {
+    transform: scale(105%);
+    -webkit-box-shadow: 0 0 5px 2px #FAF2F2;
+    -moz-box-shadow: 0 0 5px 2px #FAF2F2;
+    box-shadow: 0 0 5px 2px #FAF2F2;
+}
+
+.card-container a {
+    text-decoration: none;
+}
+
+.card-container a  button {
+    width: min-content;
+    height: 420px;
+}
+
+div .css-1ri6ub7-MuiPaper-root-MuiCard-root {
+    background-color: #09090963;
+}
+
+button .card-img-container {
+    height: 350px;
+    width: auto;
+    object-fit: contain;
+}
+
+button .card-title-container {
+    width: 200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    color: #FAF2F2;
+    text-transform: capitalize;
+}

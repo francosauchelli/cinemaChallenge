@@ -1,0 +1,6 @@
+.detail-container {
+    margin: 50px;
+    background-image: linear-gradient(to top, #3e065f2c 0%, black 100%);
+    box-shadow: 0 0 5px 2px #faf2f248;
+    min-height: 500px;
+}
